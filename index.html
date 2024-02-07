@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SonHaber</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+
+    <script src="../java.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="nav">
+        <div class="SonHaber">
+          <a href="/">SonHaber</a>
+        </div>
+
+        <ul class="button">
+          <li>
+            <a href="/" class="active"
+              ><i
+                class="material-symbols-outlined"
+                style="font-size: 23px; top: 22px; vertical-align: sub"
+                >home</i
+              >
+              Anasayfa</a
+            >
+          </li>
+
+          <li>
+            <a class="Sondakikaa" href="Haberler/Sondakika.html">Sondakika</a
+            ><span>Sondakika </span>
+          </li>
+
+          <li><a href="Haberler/Gündem.html">Gündem</a><span>Gündem</span></li>
+
+          <li>
+            <a href="Haberler/Teknoleji.html">Teknoloji</a
+            ><span>Teknoleji </span>
+          </li>
+
+          <li>
+            <a href="Haberler/Ekonomi.html">Ekonomi</a><span>Ekonomi </span>
+          </li>
+
+          <li>
+            <a href="Haberler/Yapayzeka.html">Yapayzeka</a
+            ><span>Yapayzeka </span>
+          </li>
+
+          <li>
+            <a href="Kayıt Ol.html"
+              ><i
+                class="material-symbols-outlined"
+                style="font-size: 23px; top: 22px; vertical-align: sub"
+                >how_to_reg</i
+              >Kayıt Ol</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="container-menü">
+      <div class="menu" id="menu">
+        <div>
+          <span class="line-1"></span>
+          <span class="line-2"></span>
+          <span class="line-3"></span>
+        </div>
+
+        <ul style="top: 83px" class="menu_open" id="menu_open">
+          <li class="menu-link">
+            <a href="Open_menu/a-ekonomi.html">
+              <i
+                class="material-symbols-outlined"
+                style="font-size: 23px; top: 22px; vertical-align: sub"
+              >
+                finance_mode
+              </i>
+              Ekonomi
+            </a>
+          </li>
+
+          <li class="menu-link">
+            <a href="Open_menu/a-gündem.html">
+              <i
+                class="material-symbols-outlined"
+                style="font-size: 23px; top: 22px; vertical-align: sub"
+              >
+                public
+              </i>
+              Gündem
+            </a>
+          </li>
+
+          <li class="menu-link">
+            <a href="Open_menu/a-oyun-haberleri.html">
+              <i
+                class="material-symbols-outlined"
+                style="font-size: 23px; top: 22px; vertical-align: sub"
+              >
+                sports_esports
+              </i>
+              Oyun Haberleri
+            </a>
+          </li>
+
+          <li class="menu-link">
+            <a href="Open_menu/a-yılın-yemekleri.html">
+              <i
+                class="material-symbols-outlined"
+                style="font-size: 23px; top: 22px; vertical-align: sub"
+              >
+                restaurant_menu
+              </i>
+              Yılın Yemekleri
+            </a>
+          </li>
+
+          <li class="menu-link">
+            <a href="Open_menu/a-astroloji.html">
+              <i
+                class="material-symbols-outlined"
+                style="font-size: 23px; top: 22px; vertical-align: sub"
+              >
+                nightlight
+              </i>
+              Astroloji</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <a href="Open_menu/a-gündem.html">
+          <img src="imeges/s-1.jpg" style="width: 100% " />
+        </a>
+      </div>
+
+      <div class="mySlides fade">
+        <a href="Open_menu/a-ekonomi.html">
+          <img src="imeges/s-2.jpg" style="width: 100%" />
+        </a>
+      </div>
+
+      <div class="mySlides fade">
+        <a href="Open_menu/a-oyun-haberleri.html">
+          <img src="imeges/s-3.jpg" style="width: 100%" />
+        </a>
+      </div>
+
+      <div class="mySlides fade">
+        <a href="Open_menu/a-yılın-yemekleri.html">
+          <img src="imeges/s-4.jpg" style="width: 100%" />
+        </a>
+      </div>
+
+      <div class="mySlides fade">
+        <a href="Open_menu/a-astroloji.html">
+          <img src="imeges/s-5.jpg" style="width: 100%" />
+        </a>
+      </div>
+
+      <div class="mySlides fade">
+        <a href="Haberler/Gündem.html">
+          <img src="imeges/s-6.jpg" style="width: 100%" />
+        </a>
+      </div>
+
+      <div class="mySlides fade">
+        <a href="Haberler/Sondakika.html">
+          <img src="imeges/s-7.jpg" style="width: 100%" />
+        </a>
+      </div>
+
+      <div class="mySlides fade">
+        <a href="Haberler/Yapayzeka.html">
+          <img src="imeges/s-8.jpg" style="width: 100%" />
+        </a>
+      </div>
+
+      <div class="mySlides fade">
+        <a href="Haberler/Teknoleji.html">
+          <img src="imeges/s-9.jpg" style="width: 100%" />
+        </a>
+      </div>
+
+      <div class="mySlides fade">
+        <a href="">
+          <img src="imeges/s-10.jpg" style="width: 100%" />
+        </a>
+      </div>
+
+      <div>
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+      </div>
+      <br />
+
+      <div class="dot-container">
+        <span class="dot" onclick="currentSlide(1)">1</span>
+        <span class="dot" onclick="currentSlide(2)">2</span>
+        <span class="dot" onclick="currentSlide(3)">3</span>
+        <span class="dot" onclick="currentSlide(4)">4</span>
+        <span class="dot" onclick="currentSlide(5)">5</span>
+        <span class="dot" onclick="currentSlide(6)">6</span>
+        <span class="dot" onclick="currentSlide(7)">7</span>
+        <span class="dot" onclick="currentSlide(8)">8</span>
+        <span class="dot" onclick="currentSlide(9)">9</span>
+        <span class="dot" onclick="currentSlide(10)">10</span>
+      </div>
+    </div>
+
+    <div class="KayanyaziContainer">
+      <marquee style="border: 2px solid">
+        <span
+          ><a href="Haberler/Sondakika.html" style="color: white; text-decoration: none"
+            >Sondakika 2024 Bedelli askerlik ücreti belli oldu</a
+          ></span
+        >
+        <span
+          ><a href="Haberler/Teknoleji.html" style="color: white; text-decoration: none"
+            >Teknoleji Hyperion'ın süper arabası hidrojenle çalışıyor</a
+          ></span
+        >
+        <span
+          ><a href="Haberler/Yapayzeka.html" style="color: white; text-decoration: none"
+            >Yapayzeka ChatGPT4'ün yapabilecekleri arasında şunlar yer alıyor</a
+          ></span
+        >
+        <span
+          ><a href="Haberler/Ekonomi.html" style="color: white; text-decoration: none"
+            >Ekonomi Dünya Bankası'ndan Türkiye ve küresel büyüme tahmini</a
+          ></span
+        >
+        <span
+          ><a href="Haberler/Gündem.html" style="color: white; text-decoration: none"
+            >Gündem Güneş patlaması nedir, ne zaman olacak?</a
+          ></span
+        >
+        <span
+          ><a href="#" style="color: white; text-decoration: none"
+            >Sondakika TSK'nın Kuzey Irak'taki operasyonlarının bölgedeki
+            yansımaları nasıl oldu?</a
+          ></span
+        >
+      </marquee>
+    </div>
+
+    <div class="Borsa" style="width: 50%; margin-left: 390px; margin-top: 35px">
+      <iframe
+        title="Paratic Piyasalar"
+        sandbox="allow-modals allow-same-origin allow-scripts allow-popups allow-pointer-lock"
+        height="196"
+        id="piyasa_paratic_liste"
+        src="https://widget.paratic.com/?toolName=liste&background=siyah&header=D%C3%B6viz%20Kurlar%C4%B1&ins=USD/TRL,SGGREMSE,GBP/TRL,EUR/TRL"
+        frameborder="0"
+        style="border-radius: 5px; width: 100%; height: 196px"
+      ></iframe>
+      <style></style>
+      <div class="pwrdby" style="font-size: 12px">
+        <a
+          class="pp-lnk-p"
+          target="_blank"
+          rel="nofollow"
+          href="https://piyasa.paratic.com/"
+        ></a>
+      </div>
+    </div>
+
+    <div class="metin1">
+      <div id="ilkbaşlık">
+        <h1>
+          TSK'nın Kuzey Irak'taki operasyonlarının bölgedeki yansımaları nasıl
+          oldu?
+        </h1>
+      </div>
+
+      <div>
+        <img class="foto1" src="imeges/f17.jpg" />
+      </div>
+
+      <div class="metin2">
+        <p>
+          Türk Silahlı Kuvvetleri, Irak'ın kuzeyindeki terör hedeflerine yönelik
+          gerçekleştirdiği hava harekatında, savaş uçakları, tanker uçakları,
+          Havadan İhbar Kontrol (HİK) uçağı ve İHA'larla koordineli bir
+          operasyon düzenledi. Harekat, terör örgütüne ait 16 hedefin imha
+          edildiği bir operasyon olarak gerçekleşti.
+        </p>
+      </div>
+
+      <div class="metin2_1">
+        <p>
+          Yapılan istihbarat çalışmaları sonucunda belirlenen hedeflere yönelik
+          düzenlenen harekatta, terör örgütünün barınakları, sığınakları,
+          mağaraları, tünelleri ve mühimmat depoları hedef alındı. Harekat,
+          terörün kaynağında yok edilme stratejisi çerçevesinde planlandı ve
+          icra edildi. Yerli ve milli mühimmat kullanılarak gerçekleştirilen
+          hava harekatında, savaş uçaklarına ek olarak tanker uçakları, HİK
+          uçağı ve İHA'lar da aktif olarak görev aldı.
+        </p>
+      </div>
+
+      <div class="metin2_2">
+        <p>
+          Gelişen olaylar sonucunda uçaklar, havada yakıt ikmali yaparak 3
+          farklı muharip üsten kalkarak sınırdan 140 kilometre uzaklıktaki Asos
+          dahil olmak üzere teröristlerin bulunduğu noktaları eş zamanlı vurdu.
+          Harekatın detayları, terör örgütü PKK'nın Ankara'da gerçekleştirdiği
+          bombalı saldırı girişimi sonrasında gerçekleşen üç gün içindeki ikinci
+          büyük hava harekatına dikkat çekiyor. Harekatlar neticesinde 36
+          hedefin imha edildiği bildirildi.
+        </p>
+      </div>
+    </div>
+
+    <div id="Sondakika">
+      <a href="Sondakika.html"></a>
+
+      <div class="Haber2">
+        <h1>2024 Bedelli askerlik ücreti belli oldu</h1>
+      </div>
+
+      <div>
+        <img class="foto2" src="imeges/bedelli.jpg" />
+      </div>
+      <div id="Sondakika" class="metin3">
+        <p>
+          2024 yılında geçerli olacak bedelli askerlik ücreti, memur maaş zammı
+          oranlarına göre belli oldu. Bedelli askerlik ücreti, yüzde 49.25 zam
+          ile birlikte 182 bin 608 TL’ye yükselecek. Türkiye İstatistik
+          Kurumu’nun (TÜİK) aralık ayı enflasyon verilerini açıklamasıyla
+          birlikte bedelli askerlik ücretleri de belli oldu. Enflasyon, Aralık
+          2023’te aylık bazda yüzde 2,93 artarken yıllık bazda yüzde 64,77 oldu.
+        </p>
+      </div>
+
+      <div class="metin3_1">
+        <p>
+          2023’ün Ocak-Haziran döneminde 104 bin 84 TL olan bedelli askerlik
+          ücreti, Temmuz-Aralık dönemi için 122 bin 351 liraya çıkartılmıştı.
+          Bedelli askerlik tutarı, geçmişte yapılan düzenleme ile memur maaş
+          katsayısındaki orana sabitlenmişti. 2024 yılında geçerli olacak
+          bedelli askerlik ücreti, memur maaş zammı oranlarına göre belli oldu.
+          Memur ve memur emeklisinin alacağı zam oranı yüzde 49.25 oldu Böylece
+          bedelli askerlik ücreti ne yapılacak zam, bu oranda olacak. Buna göre
+          122 bin 351 lira olan bedelli askerlik ücreti, yüzde 49.25 zam ile
+          birlikte 182 bin 608 TL’ye yükselecek.
+        </p>
+      </div>
+    </div>
+
+    <div id="Teknoleji">
+      <div class="başlık3">
+        <a href="Teknoleji.html"></a>
+        <h1>Hyperion'ın süper arabası hidrojenle çalışıyor</h1>
+      </div>
+
+      <div>
+        <img class="foto3" src="imeges/araba1.jpg" />
+      </div>
+
+      <div class="metin4">
+        <p>
+          Uzay teknolojisi ile araba tasarlansa ne olurdu? sorusunun cevabı
+          Hyperion XR-1'de gizli. Kaliforniya merkezli yeni kurulan Hyperion'ın
+          tasarladığı XR-1 ne benzinle ne de elektirikle çalışıyor. Tıpkı uzaya
+          gönderilen roketler gibi hidrojen ile harekete geçiyor. Hidrojenle
+          çalışan arabanın depo kullanımı ise oldukça tasarruflu
+        </p>
+      </div>
+
+      <div>
+        <img class="foto4" src="imeges/araba2.jpg" />
+      </div>
+
+      <div class="metin5">
+        <p>
+          Hidrojen ile çalışan araba tek depo ile 1600 km gidebiliyor Araç,
+          hidrojen suyunu sıfır emisyonlu güce dönüştürmek için birden fazla
+          elektrik motora sahip. Bu sayede Hyperion, dolu bir depoyla 1600 km
+          mesafeyi katedebiliyor. Şirketin CEO'sunun iddiasına göre ise; XP-1'i
+          tam kapasiteli doldurmak beş dakikada mümkün.
+        </p>
+      </div>
+
+      <div class="metin6">
+        <p>
+          2022'de satışa çıkması planlanıyor Uzun süredir yüzlerce mühendisin
+          üzerinde çalıştığı projenin şu anda elimizde sadece prototipi
+          bulunuyor. Şirketin hedefi ise 2022 yılına kadar XP-1'i tamamen hazır
+          hale getirip seri üretime geçmek.
+        </p>
+      </div>
+    </div>
+
+    <div id="Yapayzeka">
+      <a href="Haberler/Yapayzeka.html"></a>
+
+      <div class="metin_yapay">
+        <h1>Chat GPT-4 Neler Yapabilir</h1>
+      </div>
+
+      <div>
+        <img class="yapay_foto" src="imeges/yapay.webp" />
+      </div>
+
+      <div class="yapay_metin">
+        <h3>ChatGPT4'ün yapabilecekleri arasında şunlar yer alıyor:</h3>
+      </div>
+
+      <div class="yapay_reel">
+        <p>
+          Metin oluşturma: ChatGPT4, şiirler, kodlar, senaryolar, müzik
+          parçaları, e-posta, mektuplar vb. gibi farklı yaratıcı metin
+          formatları oluşturabilir. Dil çevirisi: ChatGPT4, İngilizce'den
+          Fransızca'ya, İspanyolca'ya, Çince'ye vb. gibi farklı dillere çeviri
+          yapabilir. Soru cevaplama: ChatGPT4, açık uçlu veya zorlayıcı olsalar
+          bile, sorularınızı bilgilendirici bir şekilde cevaplayabilir. Yaratıcı
+          içerik yazma: ChatGPT4, hikayeler, şiirler, şarkı sözleri, senaryoları
+          vb. gibi yaratıcı içerikler yazabilir.
+        </p>
+      </div>
+
+      <div>
+        <img class="yapay_foto1" src="imeges/yapay1.jpg" />
+      </div>
+
+      <div class="yapay_reel1">
+        <p>
+          ChatGPT4'ün yetenekleri, önceki sürüm olan ChatGPT3'e göre önemli
+          ölçüde geliştirilmiştir. ChatGPT4, 25.000 kelimeye kadar metni okuyup
+          analiz edebilir, görüntüleri işleyebilir ve basit esprileri
+          anlayabilir. Ayrıca, tüm büyük programlama dillerinde kod yazabilir.
+          ChatGPT4, eğitim ve eğlence gibi çeşitli alanlarda kullanılabilecek
+          güçlü bir araçtır. Eğitimde, öğrencilerin yeni kavramları
+          öğrenmelerine ve dillerini geliştirmelerine yardımcı olabilir.
+          Eğlencede, hikayeler, şiirler, şarkı sözleri vb. gibi yaratıcı
+          içerikler üretmek için kullanılabilir. ChatGPT4'ün gelecekte nasıl
+          kullanılacağı henüz belli değil. Ancak, yetenekleri göz önüne
+          alındığında, çeşitli alanlarda önemli bir rol oynaması bekleniyor.
+        </p>
+      </div>
+    </div>
+
+    <div id="Ekonomi">
+      <a href="Haberler/Ekonomi.html"> </a>
+      <div class="ekonomi_baslık">
+        <h1>Dünya Bankası'ndan Türkiye ve küresel büyüme tahmini</h1>
+      </div>
+
+      <div>
+        <img class="economi_foto" src="imeges/bank1.webp" />
+      </div>
+
+      <div class="economi_metin">
+        <p>
+          Dünya Bankası son yayımladığı projeksiyonlarda yüksek borçlanma
+          maliyetleri ve jeopolitik gerilimlerin etkisiyle küresel ekonominin
+          2024'te kadarki 5 yıllık dönemde 30 yılın en kötü performansına
+          ilerlediği uyarısını yaptı. Küresel büyümenin 2020-2024 yıllarında
+          yüzde 2,2 olarak 1990-1994 dönemindeki yüzde 2,1'lik orandan beri en
+          yavaş büyüme olması bekleniyor.
+        </p>
+      </div>
+
+      <div class="economi_metin2">
+        <p>
+          Banka ABD için büyüme beklentisini 2024 için yüzde 1,6'ya yükseltti.
+          Çin'in büyüme tahmini yüzde 4,5, Euro Bölgesi büyüme tahmini yüzde 0,7
+          oldu. Kurum Türkiye'nin 2023'te yüzde 4,2, 2024'te yüzde 3,1, 2025'te
+          yüzde 3,9 büyüyeceğini öngördü.Banka, 2024'te küresel büyümenin geçen
+          seneki yüzde 2,6'dan yüzde 2,4'e ineceği beklentisini korurken, 2025
+          tahminini yüzde 2,7'ye düşürdü.
+        </p>
+      </div>
+
+      <div class="economi_başlık2">
+        <h1>
+          "jeopolitik gerilimler dünya ekonomisi için kısa vadede yeni
+          tehlikeler oluşturabilir "
+        </h1>
+      </div>
+      <div class="economi_metin3">
+        <p>
+          Küresel ekonominin bir yıl öncesine göre daha iyi bir yerde olduğuna
+          işaret edilen raporda, küresel resesyon riskinin, büyük ölçüde ABD
+          ekonomisinin gücü sayesinde azaldığı ancak artan jeopolitik
+          gerilimlerin dünya ekonomisi için kısa vadede yeni tehlikeler
+          oluşturabileceği vurgulandı. Raporda, büyük ekonomilerin çoğunda
+          büyümeyle küresel ticaretin yavaşlaması ve on yıllardır görülen en
+          sıkı finansal koşullar nedeniyle gelişmekte olan birçok ekonominin
+          orta vadeli görünümünün karardığı ifade edildi.
+        </p>
+      </div>
+
+      <div>
+        <img class="economi_foto2" src="imeges/bank2.jpg" />
+      </div>
+
+      <div class="economi_metin5">
+        <p>
+          Bu yıl küresel ticaret büyümesinin pandemiden önceki 10 yılın
+          ortalamasının yalnızca yarısı olmasının beklendiğine değinilen
+          raporda, gelişmekte olan ekonomilerin borçlanma maliyetlerinin yüksek
+          kalması ve küresel faiz oranlarının enflasyona göre düzeltilmiş olarak
+          son 40 yılın en yüksek seviyelerinde olmasının muhtemel olduğu
+          belirtildi.
+        </p>
+      </div>
+    </div>
+
+    <div id="Gündem">
+      <a href="Gündem.html"></a>
+      <div style="margin-left: -160px" class="güneşbaşlık">
+        <h1>Güneş patlaması nedir, ne zaman olacak?</h1>
+      </div>
+
+      <div>
+        <img class="güneşfoto1" src="imeges/güneş3.jpg" />
+      </div>
+
+      <div class="güneşmetin1">
+        <p>
+          Bazı bilim insanları tarafından yapılan uyarılara göre 2024 yılı
+          başlarında Güneş fırtınalarının Dünya’yı etkileyebilir. Patlama
+          sonucunda binlerce atom bombasından daha yüksek bir enerji ortaya
+          çıkıyor ve milyarlarca megaton gücündeki patlama nedeniyle uzaya ve
+          doğal olarak dünyaya da radyasyon yayılıyor. Bu patlamalar genellikle
+          kısa dalga radyo iletişimi etkiliyor.
+        </p>
+      </div>
+
+      <div class="güneşmetin2">
+        <p>
+          Güneş patlaması veya Güneş püskürtüsü, Güneş'in gaz yuvarında
+          (atmosfer) gerçekleşen şiddetli patlamalara verilen addır. Bu
+          patlamalar milyarlarca megaton gücünde olup, genelde saatte 1.000.000
+          km/saat hızla hareket ederler.
+        </p>
+      </div>
+
+      <div class="güneşmetin3">
+        <p>
+          6x1025 Patlama sonucunda joule'e kadar enerji açığa çıkarabilir. Güneş
+          püskürtüsü nedeniyle Dünya atmosferine normalin üzerinde küçük dalga
+          boylu radyasyon parçacıkları girer. Bu püskürtüler sonucunda
+          yeryüzündeki iletişim ve güç ağları olumsuz yönde etkilenebilir.
+        </p>
+      </div>
+
+      <div>
+        <img class="güneşfoto2" src="imeges/güneş4.jpg" />
+      </div>
+
+      <div class="güneşmetin4">
+        <p>
+          Güneş patlamaları, Güneş atmosferinin bütün tabakalarını (fotosfer,
+          korona ve kromosfer) etkiler, plazmayı onlarca milyon kelvine çıkarıp
+          elektronları, protonları ve daha ağır iyonları neredeyse ışık hızıyla
+          uzaya fırlatır. Ayrıca bütün elektromanyetik tayfa yayılmış radyasyon
+          üretirler. Çoğu Güneş patlamaları, şiddetli manyetik alanların
+          fotosfere girdiği Güneş lekeleri gibi aktif bölgelerde oluşur. Güneş
+          püskürtüleri magnetik birleşmelerden dolayı oluşurlar. İlk oluşum ise
+          1859 yılında gözlemlenmiştir ve Carrington Olayı olarak adlandırılır.
+        </p>
+      </div>
+    </div>
+
+    <script>
+      let slideIndex = 1;
+      showSlides(slideIndex);
+
+      function plusSlides(n) {
+        showSlides((slideIndex += n));
+      }
+
+      function currentSlide(n) {
+        showSlides((slideIndex = n));
+      }
+
+      function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {
+          slideIndex = 1;
+        }
+        if (n < 1) {
+          slideIndex = slides.length;
+        }
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+      }
+
+      // Otomatik geçiş için sayfa yüklendiğinde başlat ve döngü yap
+      document.addEventListener("DOMContentLoaded", () => {
+        setInterval(() => {
+          plusSlides(1);
+        }, 4000);
+      });
+    </script>
+
+    <footer class="altbilgi">
+      <div class="footer-container">
+        <div class="footer-başlık">
+          <h2>SonHaber</h2>
+        </div>
+
+        <div  class="Social-media">
+          <ul>
+            <li>
+              <a
+                ><i class="fa-brands fa-facebook" style="color: #125bc9"></i
+              ></a>
+            </li>
+            <li>
+              <a><i class="fa-brands fa-x-twitter"></i></a>
+            </li>
+            <li>
+              <a
+                ><i class="fa-brands fa-instagram" style="color: #d818be"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                ><i class="fa-brands fa-linkedin" style="color: #185ed8"></i
+              ></a>
+            </li>
+            <li>
+              <a><i class="fa-brands fa-youtube" style="color: #d00b0b"></i></a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="store">
+          <img
+            class="google-icon"
+            src="imeges/Google-Play-hemen-indir-button-logo-icon-transparan-PNG-gorseli_3.png"
+            alt="Google Play"
+          />
+          <img class="google-icon" src="imeges/apple.png" alt="Apple" />
+          <img class="google-icon" src="imeges/huwai.png" alt="Huawei" />
+        </div>
+
+        <div class="altyazı">
+          <p>Copyright © 2024 SonHaber. Tüm hakları saklıdır.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
