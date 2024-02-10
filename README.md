@@ -24,7 +24,7 @@ Bu projenin temel amacı Heber portalı sağlamaktır. Bu doğrultuda, Slayt, Ku
 
 Teknolojiler
 
-Bu projeyi oluştururken HTML, CSS ve JavaScript gibi temel web teknolojilerini kullandım. Ayrıca, Bottstrap gibi harici kayanklardan  da yararlandım, bu da projenin geliştirilmesini ve özelliklerin eklenmesini kolaylaştırdı.
+Bu projeyi oluştururken HTML, CSS ve JavaScript gibi temel web teknolojilerini kullandım. Ayrıca, Bootstrap gibi harici kayanklardan  da yararlandım, bu da projenin geliştirilmesini ve özelliklerin eklenmesini kolaylaştırdı.
 
 Gelişim Süreci
 
